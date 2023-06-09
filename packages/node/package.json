@@ -1,0 +1,49 @@
+{
+  "name": "vite-plugin-unocsscan",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.6.0",
+  "description": "",
+  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/hairyf/vite-plugin-unocsscan#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hairyf/vite-plugin-unocsscan.git"
+  },
+  "bugs": "https://github.com/hairyf/vite-plugin-unocsscan/issues",
+  "keywords": [],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "prepublishOnly": "nr build"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}
