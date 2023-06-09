@@ -1,0 +1,10 @@
+{
+  "name": "@unocss/shared-common",
+  "version": "0.53.1",
+  "private": true,
+  "dependencies": {
+    "@unocss/core": "^0.53.1",
+    "@unocss/extractor-arbitrary-variants": "^0.53.1",
+    "magic-string": "^0.30.0"
+  }
+}
