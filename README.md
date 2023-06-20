@@ -2,6 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/vite-plugin-unocsscan?color=a1b858&label=)](https://www.npmjs.com/package/@unocsscan/vite)
 
+> developing
+
 ## Install
 
 ```bash
