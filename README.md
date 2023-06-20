@@ -12,7 +12,7 @@ npm i unocss vite-plugin-unocsscan -D
 
 ```ts
 import { defineConfig } from 'vite'
-import unocsscan from 'vite-plugin-unocsscan'
+import unocsscan from '@unocsscan/vite'
 import unocss from 'unocss/vite'
 
 export default defineConfig({
