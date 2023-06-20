@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-npm i unocss vite-plugin-unocsscan -D
+npm i unocss unocsscan -D
 ```
 
 ## Usage
